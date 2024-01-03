@@ -203,12 +203,6 @@
       "value": "."
     }
   ],
-  "/wNiYN": [
-    {
-      "type": 0,
-      "value": "The deposit contract has been verified at a byte-code level to ensure your safety."
-    }
-  ],
   "/ydZdf": [
     {
       "type": 0,
@@ -403,12 +397,6 @@
     {
       "type": 0,
       "value": "Check that the password files don’t have trailing new-lines."
-    }
-  ],
-  "1fDfw7": [
-    {
-      "type": 0,
-      "value": "How does this all happen?"
     }
   ],
   "1fytak": [
@@ -885,12 +873,6 @@
       "value": "Avoid phishing"
     }
   ],
-  "6UUL73": [
-    {
-      "type": 0,
-      "value": "More on validators"
-    }
-  ],
   "6VIBSR": [
     {
       "type": 0,
@@ -1341,12 +1323,6 @@
       "value": "url"
     }
   ],
-  "Ad8+R5": [
-    {
-      "type": 0,
-      "value": "Sharding will change the requirement that full nodes carry the entire history of the chain, and instead will distribute this load amongst the network while still ensuring data availability. This will significantly expand the capacity of layer 1 Ethereum while maintaining the ability to operate a full node on consumer hardware, keeping the network decentralized."
-    }
-  ],
   "Affixg": [
     {
       "type": 0,
@@ -1507,12 +1483,6 @@
       "value": "Czech"
     }
   ],
-  "CDx/FY": [
-    {
-      "type": 0,
-      "value": "By running a validator, you'll be responsible for securing the network and receive continuous payouts for actions that help the network reach consensus."
-    }
-  ],
   "CF9vMR": [
     {
       "type": 0,
@@ -1533,12 +1503,6 @@
     {
       "type": 1,
       "value": "executionLayerName"
-    }
-  ],
-  "Cacfkx": [
-    {
-      "type": 0,
-      "value": "More on the Ethereum vision"
     }
   ],
   "CdKEd/": [
@@ -1619,12 +1583,6 @@
     {
       "type": 0,
       "value": "Verify the contract address"
-    }
-  ],
-  "DhKDS3": [
-    {
-      "type": 0,
-      "value": "Proof-of-stake and the Beacon Chain"
     }
   ],
   "Di1/yX": [
@@ -2201,12 +2159,6 @@
       "value": "4. Avoid phishing"
     }
   ],
-  "JbVlOE": [
-    {
-      "type": 0,
-      "value": "Dig deeper into Ethereum upgrades."
-    }
-  ],
   "JhUYU3": [
     {
       "type": 0,
@@ -2467,12 +2419,6 @@
       "value": "Your initial deposit has already been made for this validator public key. Please wait and check the status of your deposit on the Beaconchain data provider."
     }
   ],
-  "Lv57+8": [
-    {
-      "type": 0,
-      "value": "Ethereum is secured by proof-of-stake, although this was not always the case. The Beacon Chain was the first step to establishing a PoS consensus layer on Ethereum, launching in parallel to Mainnet in December 2020. This allowed participants to start staking their ETH and prepare the network for the formal transition from proof-of-work to proof-of-stake via The Merge."
-    }
-  ],
   "LwEHRm": [
     {
       "type": 0,
@@ -2515,28 +2461,10 @@
       "value": "Bad validator behaviour"
     }
   ],
-  "MZvoWG": [
-    {
-      "type": 0,
-      "value": "The upgrades"
-    }
-  ],
-  "MZzOnU": [
-    {
-      "type": 0,
-      "value": "How is Ethereum scaling?"
-    }
-  ],
   "Mb3npQ": [
     {
       "type": 0,
       "value": "Using the terminal"
-    }
-  ],
-  "MbsAo3": [
-    {
-      "type": 0,
-      "value": "This launchpad will help you become a validator, so you can play an active part in Ethereum's future. Validators are key to the more secure, scalable, and sustainable Ethereum we're building together."
     }
   ],
   "Mc8nNE": [
@@ -2657,12 +2585,6 @@
       "value": "Mainnet"
     }
   ],
-  "NatYUJ": [
-    {
-      "type": 0,
-      "value": "Learn more about the roles and responsibilities of Ethereum validators."
-    }
-  ],
   "Nb5DNK": [
     {
       "type": 0,
@@ -2695,12 +2617,6 @@
     {
       "type": 0,
       "value": "."
-    }
-  ],
-  "O3qkOm": [
-    {
-      "type": 0,
-      "value": "Sharding"
     }
   ],
   "OBmVqN": [
@@ -2739,12 +2655,6 @@
     {
       "type": 0,
       "value": "More on ConsenSys"
-    }
-  ],
-  "OmAmmi": [
-    {
-      "type": 0,
-      "value": "More on the Merge"
     }
   ],
   "OsO8ik": [
@@ -2803,16 +2713,6 @@
     {
       "type": 0,
       "value": "JWT Authentication"
-    }
-  ],
-  "P91KmA": [
-    {
-      "type": 0,
-      "value": "Become a validator "
-    },
-    {
-      "type": 1,
-      "value": "emoji"
     }
   ],
   "P9mVZK": [
@@ -3147,12 +3047,6 @@
     {
       "type": 0,
       "value": "initial and maximum"
-    }
-  ],
-  "THIzw6": [
-    {
-      "type": 0,
-      "value": "Validators and Ethereum"
     }
   ],
   "TMw9oz": [
@@ -3965,12 +3859,6 @@
       "value": "Current APR"
     }
   ],
-  "cUvpWk": [
-    {
-      "type": 0,
-      "value": "More on data sharding"
-    }
-  ],
   "cav520": [
     {
       "type": 0,
@@ -4173,12 +4061,6 @@
     {
       "type": 0,
       "value": "More on the merge"
-    }
-  ],
-  "eq0/34": [
-    {
-      "type": 0,
-      "value": "The Merge"
     }
   ],
   "erZJkZ": [
@@ -4769,18 +4651,6 @@
       "value": "View Wagyu Key Gen audit by HashCloak"
     }
   ],
-  "k4x6Ud": [
-    {
-      "type": 0,
-      "value": "This marked the merging of the execution layer (existing Mainnet) with the new consensus layer (the Beacon Chain) to form the single Ethereum chain of today."
-    }
-  ],
-  "kFS5Sd": [
-    {
-      "type": 0,
-      "value": "Deposit contract formally verified"
-    }
-  ],
   "kGnu3F": [
     {
       "type": 0,
@@ -4829,22 +4699,10 @@
       "value": "Monitoring docs:"
     }
   ],
-  "kn7kJd": [
-    {
-      "type": 0,
-      "value": "More on consensus mechanisms"
-    }
-  ],
   "krEziQ": [
     {
       "type": 0,
       "value": "Get in touch"
-    }
-  ],
-  "krxu73": [
-    {
-      "type": 0,
-      "value": "The Merge upgrade officially brought proof-of-stake to Ethereum on September 15, 2022, simultaneously deprecating proof-of-work. This prepared the chain for future scaling upgrades such as data sharding by bringing proof-of-stake consensus together with Mainnet, while simultaneously reducing energy consumption by over 99.9%."
     }
   ],
   "kuYpoI": [
@@ -5075,12 +4933,6 @@
     {
       "type": 0,
       "value": "Hard drive"
-    }
-  ],
-  "mH6bSl": [
-    {
-      "type": 0,
-      "value": "Since the successful transition to proof-of-stake via The Merge, Ethereum is fully secured by proof-of-stake validators. By running a validator, you'll be helping to secure the Ethereum network."
     }
   ],
   "mUZnem": [
@@ -6069,12 +5921,6 @@
       "value": "Testnet simulations"
     }
   ],
-  "x0tVK4": [
-    {
-      "type": 0,
-      "value": "Validating in Ethereum is not the same as mining. The outcomes are similar: the work you do will extend and secure the chain. But the process is completely different because they use different consensus mechanisms."
-    }
-  ],
   "x4/9vY": [
     {
       "type": 0,
@@ -6219,12 +6065,6 @@
     {
       "type": 0,
       "value": "Your validator has its own balance, with the initial balance outlined in the deposit contract. Your rewards and penalties are reflected in your validator's balance over time."
-    }
-  ],
-  "y44jV2": [
-    {
-      "type": 0,
-      "value": "Several upgrades are underway that will make Ethereum more scalable, secure, and sustainable. These upgrades will improve Ethereum while seamlessly continuing on the chain of today. Here's more on the different upgrades:"
     }
   ],
   "y4dBsA": [

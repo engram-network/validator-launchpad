@@ -73,9 +73,6 @@
     "description": "{eip2334} shows 'EIP2334' and links to EIP documentation. {strongText} is important information bolded for emphasis",
     "message": "However, all is not lost. Assuming you derive your keys using {eip2334} (as per the default onboarding flow) then {strongText}."
   },
-  "/wNiYN": {
-    "message": "The deposit contract has been verified at a byte-code level to ensure your safety."
-  },
   "/ydZdf": {
     "message": "How large are the rewards/penalties?"
   },
@@ -159,9 +156,6 @@
   },
   "1Vkpd0": {
     "message": "Check that the password files don’t have trailing new-lines."
-  },
-  "1fDfw7": {
-    "message": "How does this all happen?"
   },
   "1fytak": {
     "message": "Check deposit contract details"
@@ -320,9 +314,6 @@
   },
   "6S95Bo": {
     "message": "Avoid phishing"
-  },
-  "6UUL73": {
-    "message": "More on validators"
   },
   "6VIBSR": {
     "message": "You can improve the effective balance of this validator by topping up"
@@ -494,9 +485,6 @@
     "description": "{url} is link to GitHub CLI release, made bold for emphasis",
     "message": "Please make sure that you are downloading from the official Ethereum Foundation GitHub account by verifying the url: {url}"
   },
-  "Ad8+R5": {
-    "message": "Sharding will change the requirement that full nodes carry the entire history of the chain, and instead will distribute this load amongst the network while still ensuring data availability. This will significantly expand the capacity of layer 1 Ethereum while maintaining the ability to operate a full node on consumer hardware, keeping the network decentralized."
-  },
   "Affixg": {
     "message": "The deposit"
   },
@@ -558,9 +546,6 @@
   "CACPC+": {
     "message": "Czech"
   },
-  "CDx/FY": {
-    "message": "By running a validator, you'll be responsible for securing the network and receive continuous payouts for actions that help the network reach consensus."
-  },
   "CF9vMR": {
     "message": "Proof of stake"
   },
@@ -569,9 +554,6 @@
   },
   "CWKE9c": {
     "message": "Your wallet is on the wrong network. Switch to {executionLayerName}"
-  },
-  "Cacfkx": {
-    "message": "More on the Ethereum vision"
   },
   "CdKEd/": {
     "description": "{strongText} is a warning, bolded for emphasis",
@@ -610,9 +592,6 @@
   },
   "DbnQg+": {
     "message": "Verify the contract address"
-  },
-  "DhKDS3": {
-    "message": "Proof-of-stake and the Beacon Chain"
   },
   "Di1/yX": {
     "message": "Consensus JWT docs:"
@@ -846,9 +825,6 @@
   "JPT/TK": {
     "message": "4. Avoid phishing"
   },
-  "JbVlOE": {
-    "message": "Dig deeper into Ethereum upgrades."
-  },
   "JhUYU3": {
     "message": "Download CLI app"
   },
@@ -952,9 +928,6 @@
   "Lv3Pmp": {
     "message": "Your initial deposit has already been made for this validator public key. Please wait and check the status of your deposit on the Beaconchain data provider."
   },
-  "Lv57+8": {
-    "message": "Ethereum is secured by proof-of-stake, although this was not always the case. The Beacon Chain was the first step to establishing a PoS consensus layer on Ethereum, launching in parallel to Mainnet in December 2020. This allowed participants to start staking their ETH and prepare the network for the formal transition from proof-of-work to proof-of-stake via The Merge."
-  },
   "LwEHRm": {
     "message": "Why do I need to run an execution client now?"
   },
@@ -976,17 +949,8 @@
   "MZEcKL": {
     "message": "Bad validator behaviour"
   },
-  "MZvoWG": {
-    "message": "The upgrades"
-  },
-  "MZzOnU": {
-    "message": "How is Ethereum scaling?"
-  },
   "Mb3npQ": {
     "message": "Using the terminal"
-  },
-  "MbsAo3": {
-    "message": "This launchpad will help you become a validator, so you can play an active part in Ethereum's future. Validators are key to the more secure, scalable, and sustainable Ethereum we're building together."
   },
   "Mc8nNE": {
     "message": "Transaction failed"
@@ -1033,9 +997,6 @@
   "NZYRdf": {
     "message": "Mainnet"
   },
-  "NatYUJ": {
-    "message": "Learn more about the roles and responsibilities of Ethereum validators."
-  },
   "Nb5DNK": {
     "message": "Become a validator with Teku"
   },
@@ -1044,9 +1005,6 @@
   },
   "O+3LJ1": {
     "message": "This validator's balance is at the effective maximum: {PRICE_PER_VALIDATOR} {TICKER_NAME}."
-  },
-  "O3qkOm": {
-    "message": "Sharding"
   },
   "OBmVqN": {
     "message": "Hyperledger Besu is an open-source Ethereum client developed under the Apache 2.0 license and written in Java."
@@ -1062,9 +1020,6 @@
   },
   "OdYQYh": {
     "message": "More on ConsenSys"
-  },
-  "OmAmmi": {
-    "message": "More on the Merge"
   },
   "OsO8ik": {
     "message": "I am technically capable of setting up and running a validator."
@@ -1087,9 +1042,6 @@
   },
   "P8FrVE": {
     "message": "JWT Authentication"
-  },
-  "P91KmA": {
-    "message": "Become a validator {emoji}"
   },
   "P9mVZK": {
     "message": "Your network has changed"
@@ -1227,9 +1179,6 @@
   },
   "T2O2Gr": {
     "message": "initial and maximum"
-  },
-  "THIzw6": {
-    "message": "Validators and Ethereum"
   },
   "TMw9oz": {
     "message": "Visit this site on desktop to become a validator."
@@ -1541,9 +1490,6 @@
   "cRzxes": {
     "message": "Current APR"
   },
-  "cUvpWk": {
-    "message": "More on data sharding"
-  },
   "cav520": {
     "message": "Download from GitHub"
   },
@@ -1634,9 +1580,6 @@
   },
   "elCkOU": {
     "message": "More on the merge"
-  },
-  "eq0/34": {
-    "message": "The Merge"
   },
   "erZJkZ": {
     "message": "When launching Teku, keystores and passwords can be provided in different ways."
@@ -1866,12 +1809,6 @@
   "k43c+l": {
     "message": "View Wagyu Key Gen audit by HashCloak"
   },
-  "k4x6Ud": {
-    "message": "This marked the merging of the execution layer (existing Mainnet) with the new consensus layer (the Beacon Chain) to form the single Ethereum chain of today."
-  },
-  "kFS5Sd": {
-    "message": "Deposit contract formally verified"
-  },
   "kGnu3F": {
     "message": "How are rewards/penalties issued?"
   },
@@ -1896,14 +1833,8 @@
   "kn06Zz": {
     "message": "Monitoring docs:"
   },
-  "kn7kJd": {
-    "message": "More on consensus mechanisms"
-  },
   "krEziQ": {
     "message": "Get in touch"
-  },
-  "krxu73": {
-    "message": "The Merge upgrade officially brought proof-of-stake to Ethereum on September 15, 2022, simultaneously deprecating proof-of-work. This prepared the chain for future scaling upgrades such as data sharding by bringing proof-of-stake consensus together with Mainnet, while simultaneously reducing energy consumption by over 99.9%."
   },
   "kuYpoI": {
     "message": "Current balance"
@@ -1982,9 +1913,6 @@
   },
   "mArJcj": {
     "message": "Hard drive"
-  },
-  "mH6bSl": {
-    "message": "Since the successful transition to proof-of-stake via The Merge, Ethereum is fully secured by proof-of-stake validators. By running a validator, you'll be helping to secure the Ethereum network."
   },
   "mUZnem": {
     "message": "We strongly recommend you go through the entire process on a testnet first to get comfortable before risking real ETH."
@@ -2382,9 +2310,6 @@
   "x+fF+M": {
     "message": "Testnet simulations"
   },
-  "x0tVK4": {
-    "message": "Validating in Ethereum is not the same as mining. The outcomes are similar: the work you do will extend and secure the chain. But the process is completely different because they use different consensus mechanisms."
-  },
   "x4/9vY": {
     "message": "We strongly recommended you complete these steps on the current testnet before Mainnet."
   },
@@ -2431,9 +2356,6 @@
   },
   "xzmWbJ": {
     "message": "Your validator has its own balance, with the initial balance outlined in the deposit contract. Your rewards and penalties are reflected in your validator's balance over time."
-  },
-  "y44jV2": {
-    "message": "Several upgrades are underway that will make Ethereum more scalable, secure, and sustainable. These upgrades will improve Ethereum while seamlessly continuing on the chain of today. Here's more on the different upgrades:"
   },
   "y4dBsA": {
     "message": "Configure time sync"

@@ -1,31 +1,7 @@
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
 import styled from 'styled-components';
-import { FormattedMessage, useIntl } from 'react-intl';
-import { Text } from '../../../components/Text';
-import { Link } from '../../../components/Link';
-import { Heading } from '../../../components/Heading';
-import { UpgradeCard } from './UpgradeCard';
+import { useIntl } from 'react-intl';
 
-const Container = styled.div`
-  background-color: ${p => p.theme.purple.light};
-  padding: ${(p: { isMobile: boolean }) => (p.isMobile ? '20px 0' : '150px 0')};
-`;
-const SubContainer = styled.div`
-  max-width: ${p => p.theme.screenSizes.largest};
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 120px;
-  @media only screen and (max-width: ${p => p.theme.screenSizes.largest}) {
-    padding: ${(p: { isMobile: boolean }) =>
-      p.isMobile ? '0 20px' : '0 60px'};
-  }
-`;
-const UpgradesContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-`;
 const ResponsiveContainer = styled.div`
   display: flex;
   justify-content: space-between;
@@ -33,63 +9,12 @@ const ResponsiveContainer = styled.div`
     flex-direction: column;
   }
 `;
-const StyledHeading = styled(Heading)`
-  width: ${(p: { isMobile: boolean }) =>
-    p.isMobile ? '220px' : undefined}; // force word break
-`;
-const UpgradeTitle = styled(Text)`
-  font-weight: bold;
-  font-size: 24px;
-`;
-
-interface upgrade {
-  title: string;
-  subTitle: string;
-  linkUrl: string;
-  link: string;
-}
 
 export const Upgrades = (): JSX.Element => {
-  const { formatMessage } = useIntl();
-
-  const m: boolean = (window as any).mobileCheck();
-
-  const upgrades: upgrade[] = [
-    {
-      title: formatMessage({ defaultMessage: 'The upgrades' }),
-      subTitle: formatMessage({
-        defaultMessage: 'Dig deeper into Ethereum upgrades.',
-      }),
-      linkUrl: 'https://ethereum.org/en/upgrades/',
-      link: formatMessage({ defaultMessage: 'How does this all happen?' }),
-    },
-    {
-      title: formatMessage({
-        defaultMessage: 'Deposit contract formally verified',
-      }),
-      subTitle: formatMessage({
-        defaultMessage:
-          'The deposit contract has been verified at a byte-code level to ensure your safety.',
-      }),
-      linkUrl:
-        'https://github.com/runtimeverification/deposit-contract-verification/blob/96434de/deposit-contract-verification.pdf',
-      link: formatMessage({ defaultMessage: 'Formal verification report' }),
-    },
-    {
-      title: formatMessage({ defaultMessage: 'Validators FAQ' }),
-      subTitle: formatMessage({
-        defaultMessage:
-          'Learn more about the roles and responsibilities of Ethereum validators.',
-      }),
-      linkUrl: '/faq',
-      link: formatMessage({ defaultMessage: 'More on validators' }),
-    },
-  ];
-
+  useIntl();
   return (
-    <Container isMobile={m}>
-      <SubContainer isMobile={m}>
-        <ResponsiveContainer>
+    <ResponsiveContainer>
+      {/*
           <div className="px20">
             <ScrollAnimation animateIn="fadeIn" animateOnce>
               <StyledHeading margin="none" className="mt20" isMobile={m}>
@@ -153,8 +78,7 @@ export const Upgrades = (): JSX.Element => {
               <UpgradeCard key={upgrade.title} {...upgrade} />
             ))}
           </UpgradesContainer>
-        </ResponsiveContainer>
-      </SubContainer>
-    </Container>
+          */}
+    </ResponsiveContainer>
   );
 };

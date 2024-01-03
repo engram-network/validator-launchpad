@@ -6,12 +6,6 @@ import { Heading } from './Heading';
 import { routesEnum } from '../Routes';
 import { Link } from './Link';
 
-import { Button } from './Button';
-
-const Rhino = styled.span`
-  font-size: 20px;
-`;
-
 const RainbowBackground = styled.div`
   min-width: 100%;
   overflow: hidden;
@@ -43,11 +37,6 @@ const FooterStyles = styled.div`
 const ButtonContainer = styled.div`
   display: flex;
   justify-content: center;
-`;
-
-const ButtonLink = styled(Link)`
-  width: fit-content;
-  padding: 0;
 `;
 
 export const Footer = () => {
@@ -86,32 +75,8 @@ export const Footer = () => {
         </div>
 
         {!despotWorkflowRoutes.includes(pathname as routesEnum) && (
-          <ButtonContainer className="m-auto">
-            <ButtonLink
-              to={routesEnum.acknowledgementPage}
-              className="cta-button"
-            >
-              <Button
-                rainbow
-                fullWidth
-                width={400}
-                label={
-                  <FormattedMessage
-                    defaultMessage="Become a validator {emoji}"
-                    values={{
-                      emoji: (
-                        <Rhino>
-                          <span role="img" aria-label="rhino">
-                            🦏
-                          </span>
-                        </Rhino>
-                      ),
-                    }}
-                  />
-                }
-              />
-            </ButtonLink>
-          </ButtonContainer>
+          // eslint-disable-next-line react/self-closing-comp
+          <ButtonContainer className="m-auto"></ButtonContainer>
         )}
         <div className="col extra-links">
           <Heading level={4}>
