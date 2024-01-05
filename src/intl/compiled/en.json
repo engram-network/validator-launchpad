@@ -21,6 +21,12 @@
       "value": " (handling proof-of-stake consensus tasks, formerly 'Eth2' or 'Ethereum 2.0')."
     }
   ],
+  "+CyDun": [
+    {
+      "type": 0,
+      "value": "Become a validator and help secure the future of Engram."
+    }
+  ],
   "+L0IkF": [
     {
       "type": 0,
@@ -271,6 +277,20 @@
     {
       "type": 0,
       "value": "Testnet practice"
+    }
+  ],
+  "0VlWmf": [
+    {
+      "type": 0,
+      "value": "Please make sure you have set --chain engram for "
+    },
+    {
+      "type": 1,
+      "value": "consensusLayerName"
+    },
+    {
+      "type": 0,
+      "value": ", otherwise the deposit will be invalid."
     }
   ],
   "0c06tl": [
@@ -1311,16 +1331,6 @@
     {
       "type": 0,
       "value": "understanding validator effective balance"
-    }
-  ],
-  "Ad61gz": [
-    {
-      "type": 0,
-      "value": "Please make sure that you are downloading from the official Ethereum Foundation GitHub account by verifying the url: "
-    },
-    {
-      "type": 1,
-      "value": "url"
     }
   ],
   "Affixg": [
@@ -2495,6 +2505,12 @@
       "value": " isn't a valid deposit_data JSON file. Try again."
     }
   ],
+  "N8+ZaL": [
+    {
+      "type": 0,
+      "value": "9278"
+    }
+  ],
   "NEmnAV": [
     {
       "type": 0,
@@ -2655,6 +2671,12 @@
     {
       "type": 0,
       "value": "More on ConsenSys"
+    }
+  ],
+  "Oi1VGg": [
+    {
+      "type": 0,
+      "value": "7%"
     }
   ],
   "OsO8ik": [
@@ -3433,12 +3455,6 @@
       "value": " to connect your consensus node to the JSON RPC endpoint. This will enable the JSON RPC services on the default 8545 port."
     }
   ],
-  "XmddSV": [
-    {
-      "type": 0,
-      "value": "Build from source"
-    }
-  ],
   "Y07Hwy": [
     {
       "type": 0,
@@ -3847,12 +3863,6 @@
       "value": "Check your favorite Beacon Chain block explorer:"
     }
   ],
-  "cPsIkp": [
-    {
-      "type": 0,
-      "value": "Become a validator and help secure the future of Ethereum."
-    }
-  ],
   "cRzxes": [
     {
       "type": 0,
@@ -3957,6 +3967,12 @@
     {
       "type": 0,
       "value": "What exactly is a validator?"
+    }
+  ],
+  "dQ+baw": [
+    {
+      "type": 0,
+      "value": "Become a validator and help secure the future of Engram"
     }
   ],
   "dTOtPO": [
@@ -4929,6 +4945,16 @@
       "value": "File uploaded"
     }
   ],
+  "m/XTyQ": [
+    {
+      "type": 0,
+      "value": "Please make sure that you are downloading from the official Engram Network GitHub account by verifying the url: "
+    },
+    {
+      "type": 1,
+      "value": "url"
+    }
+  ],
   "mArJcj": [
     {
       "type": 0,
@@ -4983,12 +5009,6 @@
     {
       "type": 0,
       "value": "Risks and acknowledgements:"
-    }
-  ],
-  "nBhisA": [
-    {
-      "type": 0,
-      "value": "You'll need to run an execution client (formerly 'Eth1') as well as a consensus client (formerly 'Eth2') to become a validator. Take a look at the checklist to prepare yourself and your equipment."
     }
   ],
   "nRWZl3": [
@@ -5287,6 +5307,12 @@
       "value": "I've simulated how to manually stop and restart my Beacon Node (BN) and Validator Client (VC) gracefully."
     }
   ],
+  "puTPqg": [
+    {
+      "type": 0,
+      "value": "You'll need to run an execution client & consensus client to become a validator. Take a look at the checklist to prepare yourself and your equipment."
+    }
+  ],
   "pyWt01": [
     {
       "type": 0,
@@ -5521,12 +5547,6 @@
     {
       "type": 0,
       "value": "CPU and RAM"
-    }
-  ],
-  "sj/Zef": [
-    {
-      "type": 0,
-      "value": "Download Key Gen GUI app"
     }
   ],
   "smD5l/": [
@@ -5803,12 +5823,6 @@
       "value": "Protect your funds using monitoring software, and learn how to handle different real world scenarios."
     }
   ],
-  "vIF140": [
-    {
-      "type": 0,
-      "value": "Become a validator and help secure the future of Ethereum"
-    }
-  ],
   "vJez0K": [
     {
       "type": 0,
@@ -6003,28 +6017,6 @@
       "value": "The Beacon Chain"
     }
   ],
-  "xXntjc": [
-    {
-      "type": 0,
-      "value": "Please make sure you have set "
-    },
-    {
-      "type": 1,
-      "value": "flag"
-    },
-    {
-      "type": 0,
-      "value": " for "
-    },
-    {
-      "type": 1,
-      "value": "consensusLayerName"
-    },
-    {
-      "type": 0,
-      "value": ", otherwise the deposit will be invalid."
-    }
-  ],
   "xbet2w": [
     {
       "type": 0,
@@ -6071,6 +6063,12 @@
     {
       "type": 0,
       "value": "Configure time sync"
+    }
+  ],
+  "y84dJt": [
+    {
+      "type": 0,
+      "value": "301"
     }
   ],
   "y86+cK": [

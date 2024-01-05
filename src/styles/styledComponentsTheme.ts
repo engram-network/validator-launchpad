@@ -1,9 +1,9 @@
 export const colors = {
   transparent: 'transparent',
-  white: '#ffffff',
+  white: '#d9d3d0',
   gray: {
-    lightest: '#fdfcfe',
-    light: '#F0F4F8',
+    lightest: '#d9d3d0',
+    light: '#d9d3d0',
     medium: '#B6B6B6',
     dark: '#4A4A4A',
   },
@@ -20,7 +20,7 @@ export const colors = {
     dark: '#26AB83',
   },
   red: {
-    lightest: '#fff0f2',
+    lightest: '#d9d3d0',
     light: '#FF9B9A',
     medium: '#912d2c',
   },

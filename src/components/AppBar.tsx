@@ -225,9 +225,6 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                 <DropdownLink to={routesEnum.besu}>Besu</DropdownLink>
                 <DropdownLink to={routesEnum.erigon}>Erigon</DropdownLink>
                 <DropdownLink to={routesEnum.geth}>Geth</DropdownLink>
-                <DropdownLink to={routesEnum.nethermind}>
-                  Nethermind
-                </DropdownLink>
               </Box>
               <Text className="my10">
                 <b>Consensus clients</b>
@@ -236,7 +233,6 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                 <DropdownLink to={routesEnum.lighthouse}>
                   Lighthouse
                 </DropdownLink>
-                <DropdownLink to={routesEnum.nimbus}>Nimbus</DropdownLink>
                 <DropdownLink to={routesEnum.prysm}>Prysm</DropdownLink>
                 <DropdownLink to={routesEnum.teku}>Teku</DropdownLink>
               </Box>

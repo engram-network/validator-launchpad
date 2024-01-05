@@ -6,9 +6,7 @@ import { Heading } from '../../../components/Heading';
 import { Text } from '../../../components/Text';
 import { Link } from '../../../components/Link';
 import { Button } from '../../../components/Button';
-import { numberWithCommas } from '../../../utils/numberWithCommas';
 import { BEACONCHAIN_URL, TICKER_NAME } from '../../../utils/envVars';
-import calculateStakingRewards from '../../../utils/calculateStakingRewards';
 
 //
 // Styled Components
@@ -72,10 +70,10 @@ type PropData = {
 
 export const NetworkStatus: React.FC<{
   state: PropData;
-}> = ({ state }): JSX.Element | null => {
+  // eslint-disable-next-line no-empty-pattern
+}> = ({}): JSX.Element | null => {
   const { formatMessage } = useIntl();
   const [m, setM] = React.useState<boolean>((window as any).mobileCheck());
-  const { amountEth, totalValidators, status } = state;
 
   React.useEffect(() => {
     const resizeListener = () => {
@@ -84,21 +82,6 @@ export const NetworkStatus: React.FC<{
     window.addEventListener('resize', resizeListener);
     return () => window.removeEventListener('resize', resizeListener);
   }, []);
-
-  const currentAPR = calculateStakingRewards({ totalAtStake: amountEth });
-  const formattedAPR = (Math.round(currentAPR * 1000) / 10).toLocaleString();
-
-  const LoadingHandler: React.FC<{
-    value?: string;
-  }> = ({ value }): JSX.Element => {
-    if (status === 200) {
-      return <span>{value}</span>;
-    }
-    if (status === 500) {
-      return <FormattedMessage defaultMessage="Loading error" />;
-    }
-    return <FormattedMessage defaultMessage="Loading..." />;
-  };
 
   return (
     <Container isMobile={m}>
@@ -117,8 +100,9 @@ export const NetworkStatus: React.FC<{
               </Heading>
               <Text size="x-large" className="mt20">
                 <BoldGreen className="mr10" fontSize={24}>
-                  <LoadingHandler
-                    value={`${numberWithCommas(amountEth)} ${TICKER_NAME}`}
+                  <FormattedMessage
+                    defaultMessage="9278"
+                    values={{ TICKER_NAME }}
                   />
                 </BoldGreen>
               </Text>
@@ -129,7 +113,10 @@ export const NetworkStatus: React.FC<{
               </Heading>
               <Text size="x-large" className="mt20">
                 <BoldGreen className="mr10" fontSize={24}>
-                  <LoadingHandler value={numberWithCommas(totalValidators)} />
+                  <FormattedMessage
+                    defaultMessage="301"
+                    values={{ TICKER_NAME }}
+                  />
                 </BoldGreen>
               </Text>
             </Card>
@@ -142,7 +129,10 @@ export const NetworkStatus: React.FC<{
               </Heading>
               <Text size="x-large" className="mt20">
                 <BoldGreen className="mr10" fontSize={24}>
-                  {formattedAPR}%
+                  <FormattedMessage
+                    defaultMessage="7%"
+                    values={{ TICKER_NAME }}
+                  />
                 </BoldGreen>
               </Text>
             </Card>

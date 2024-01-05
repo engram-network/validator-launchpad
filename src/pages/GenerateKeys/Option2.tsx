@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import styled from 'styled-components';
 import { Alert as GrommetAlert } from 'grommet-icons';
@@ -31,11 +32,7 @@ export const Option2 = ({ os }: { os: string }) => {
       <Text weight={500}>
         <FormattedMessage defaultMessage="Step 1: Download the Wagyu Key Gen app for your operating system" />
       </Text>
-      <Link
-        isTextLink={false}
-        to="https://github.com/stake-house/wagyu-key-gen/releases"
-        className="my40"
-      >
+      <Link isTextLink={false} to="#" className="my40">
         <Button
           className="flex"
           rainbow
@@ -43,11 +40,7 @@ export const Option2 = ({ os }: { os: string }) => {
         />
       </Link>
 
-      <Link
-        shouldOpenNewTab={true}
-        to="https://github.com/stake-house/wagyu-key-gen/files/7693548/Wagyu.Key.Gen.Audit.Report.pdf"
-        className="my10"
-      >
+      <Link shouldOpenNewTab to="#" className="my10">
         <FormattedMessage defaultMessage="View Wagyu Key Gen audit by HashCloak" />
       </Link>
 
@@ -64,11 +57,7 @@ export const Option2 = ({ os }: { os: string }) => {
               defaultMessage="Please make sure that you are downloading from the official StakeHouse
               GitHub account by verifying the url: {url}"
               values={{
-                url: (
-                  <strong>
-                    https://github.com/stake-house/wagyu-key-gen/releases
-                  </strong>
-                ),
+                url: <strong>#</strong>,
               }}
               description="{url} is link to GitHub CLI release, made bold for emphasis"
             />

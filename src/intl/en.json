@@ -3,6 +3,9 @@
     "description": "{executionLayer} is a link labeled 'execution layer'. {consensusLayer} is a link labeled 'consensus layer'",
     "message": "Ethereum consists of the {executionLayer} (handling transactions and execution, formerly 'Eth1'), and the {consensusLayer} (handling proof-of-stake consensus tasks, formerly 'Eth2' or 'Ethereum 2.0')."
   },
+  "+CyDun": {
+    "message": "Become a validator and help secure the future of Engram."
+  },
   "+L0IkF": {
     "message": "Step 2: Generate deposit keys using the Ethereum Foundation deposit tool"
   },
@@ -99,6 +102,10 @@
   },
   "0S8/Wo": {
     "message": "Testnet practice"
+  },
+  "0VlWmf": {
+    "description": "{flag} is a terminal command styled as code.",
+    "message": "Please make sure you have set --chain engram for {consensusLayerName}, otherwise the deposit will be invalid."
   },
   "0c06tl": {
     "message": "Withdrawal Credentials"
@@ -480,10 +487,6 @@
   },
   "AbBgEs": {
     "message": "understanding validator effective balance"
-  },
-  "Ad61gz": {
-    "description": "{url} is link to GitHub CLI release, made bold for emphasis",
-    "message": "Please make sure that you are downloading from the official Ethereum Foundation GitHub account by verifying the url: {url}"
   },
   "Affixg": {
     "message": "The deposit"
@@ -964,6 +967,9 @@
   "N0rwnt": {
     "message": "{depositFileName} isn't a valid deposit_data JSON file. Try again."
   },
+  "N8+ZaL": {
+    "message": "9278"
+  },
   "NEmnAV": {
     "message": "Italian"
   },
@@ -1020,6 +1026,9 @@
   },
   "OdYQYh": {
     "message": "More on ConsenSys"
+  },
+  "Oi1VGg": {
+    "message": "7%"
   },
   "OsO8ik": {
     "message": "I am technically capable of setting up and running a validator."
@@ -1322,9 +1331,6 @@
     "description": "{http} shows '--http' terminal command",
     "message": "Use {http} to connect your consensus node to the JSON RPC endpoint. This will enable the JSON RPC services on the default 8545 port."
   },
-  "XmddSV": {
-    "message": "Build from source"
-  },
   "Y07Hwy": {
     "message": "Connect {wallet} to {executionLayerName}"
   },
@@ -1484,9 +1490,6 @@
   "cJX99/": {
     "message": "Check your favorite Beacon Chain block explorer:"
   },
-  "cPsIkp": {
-    "message": "Become a validator and help secure the future of Ethereum."
-  },
   "cRzxes": {
     "message": "Current APR"
   },
@@ -1537,6 +1540,9 @@
   },
   "dM/KIM": {
     "message": "What exactly is a validator?"
+  },
+  "dQ+baw": {
+    "message": "Become a validator and help secure the future of Engram"
   },
   "dTOtPO": {
     "message": "Top Up"
@@ -1911,6 +1917,10 @@
   "lrdlY6": {
     "message": "File uploaded"
   },
+  "m/XTyQ": {
+    "description": "{url} is link to GitHub CLI release, made bold for emphasis",
+    "message": "Please make sure that you are downloading from the official Engram Network GitHub account by verifying the url: {url}"
+  },
   "mArJcj": {
     "message": "Hard drive"
   },
@@ -1934,9 +1944,6 @@
   },
   "mr1BWl": {
     "message": "Risks and acknowledgements:"
-  },
-  "nBhisA": {
-    "message": "You'll need to run an execution client (formerly 'Eth1') as well as a consensus client (formerly 'Eth2') to become a validator. Take a look at the checklist to prepare yourself and your equipment."
   },
   "nRWZl3": {
     "message": "Again, it depends. Behaving maliciously—for example attesting to invalid or contradicting blocks—will lead to your stake being slashed."
@@ -2055,6 +2062,9 @@
   "ptWiT7": {
     "message": "I've simulated how to manually stop and restart my Beacon Node (BN) and Validator Client (VC) gracefully."
   },
+  "puTPqg": {
+    "message": "You'll need to run an execution client & consensus client to become a validator. Take a look at the checklist to prepare yourself and your equipment."
+  },
   "pyWt01": {
     "message": "Deposit summary"
   },
@@ -2145,9 +2155,6 @@
   },
   "sXV95+": {
     "message": "CPU and RAM"
-  },
-  "sj/Zef": {
-    "message": "Download Key Gen GUI app"
   },
   "smD5l/": {
     "message": "Consensus Layer Beacon Node (BN)"
@@ -2257,9 +2264,6 @@
   "vEJDo8": {
     "message": "Protect your funds using monitoring software, and learn how to handle different real world scenarios."
   },
-  "vIF140": {
-    "message": "Become a validator and help secure the future of Ethereum"
-  },
   "vJez0K": {
     "message": "Proceed with caution. Our on-chain data source is down and we are unable to flag any double deposits."
   },
@@ -2338,10 +2342,6 @@
   "xXWzDf": {
     "message": "The Beacon Chain"
   },
-  "xXntjc": {
-    "description": "{flag} is a terminal command styled as code.",
-    "message": "Please make sure you have set {flag} for {consensusLayerName}, otherwise the deposit will be invalid."
-  },
   "xbet2w": {
     "message": "Install python3.7+"
   },
@@ -2359,6 +2359,9 @@
   },
   "y4dBsA": {
     "message": "Configure time sync"
+  },
+  "y84dJt": {
+    "message": "301"
   },
   "y86+cK": {
     "message": "What is a node operator?"

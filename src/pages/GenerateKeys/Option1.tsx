@@ -9,7 +9,6 @@ import { Alert } from '../../components/Alert';
 import { Code } from '../../components/Code';
 import { NETWORK_NAME } from '../../utils/envVars';
 import { Button } from '../../components/Button';
-import githubScreenshot from '../../static/github-cli-screenshot.png';
 import { colors } from '../../styles/styledComponentsTheme';
 import useIntlNetworkName from '../../hooks/useIntlNetworkName';
 
@@ -20,11 +19,6 @@ const AlertIcon = styled(p => <GrommetAlert {...p} />)`
 
 const Pre = styled.pre`
   white-space: normal;
-`;
-
-const GithubScreenshot = styled.img.attrs({ src: githubScreenshot })`
-  max-width: 925px;
-  width: 100%;
 `;
 
 export const Option1 = ({
@@ -47,7 +41,7 @@ export const Option1 = ({
       </Text>
       <Link
         isTextLink={false}
-        to="https://github.com/ethereum/staking-deposit-cli/releases/"
+        to="https://github.com/engram-network/staking-deposit.git"
         className="my40"
       >
         <Button
@@ -67,12 +61,11 @@ export const Option1 = ({
             style={{ wordBreak: 'break-word' }}
           >
             <FormattedMessage
-              defaultMessage="Please make sure that you are downloading from the official Ethereum
-              Foundation GitHub account by verifying the url: {url}"
+              defaultMessage="Please make sure that you are downloading from the official Engram Network GitHub account by verifying the url: {url}"
               values={{
                 url: (
                   <strong>
-                    https://github.com/ethereum/staking-deposit-cli/releases/
+                    https://github.com/engram-network/staking-deposit.git
                   </strong>
                 ),
               }}
@@ -81,8 +74,6 @@ export const Option1 = ({
           </Text>
         </div>
       </Alert>
-
-      <GithubScreenshot />
 
       <Text weight={500} className="mt20">
         <FormattedMessage defaultMessage="Step 2: Generate deposit keys using the Ethereum Foundation deposit tool" />
@@ -135,14 +126,14 @@ export const Option1 = ({
               {`--${formatMessage({
                 defaultMessage: 'chain',
                 description: 'this is used as a command line flag',
-              })} ${NETWORK_NAME.toLowerCase()}`}
+              })} engram`}
             </span>
           </Pre>
         </Alert>
         <Alert variant="error" className="my10">
           <Text>
             <FormattedMessage
-              defaultMessage="Please make sure you have set {flag} for {consensusLayerName}, otherwise the deposit will be invalid."
+              defaultMessage="Please make sure you have set --chain engram for {consensusLayerName}, otherwise the deposit will be invalid."
               values={{
                 flag: (
                   <Code>

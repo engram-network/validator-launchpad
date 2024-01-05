@@ -1,9 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FormNext } from 'grommet-icons';
 import { useIntl } from 'react-intl';
-import { rainbowColors } from '../../styles/styledComponentsTheme';
 import { WorkflowStep } from '../../store/actions/workflowActions';
+import { rainbowColors } from '../../styles/styledComponentsTheme';
 
 const Container = styled.div`
   background-color: white;
@@ -28,10 +27,6 @@ const Step = styled.div`
     return p.theme.gray.medium;
   }};
   font-weight: ${p => (p.active ? 600 : undefined)};
-`;
-
-const Arrow = styled(FormNext)`
-  stroke: ${p => p.color || p.theme.gray.medium};
 `;
 
 interface Props {
@@ -88,10 +83,6 @@ export const WorkflowProgressBar = ({ workflow }: Props): JSX.Element => {
             >
               {text}
             </Step>
-            {i !== steps.length - 1 && (
-              // @ts-ignore
-              <Arrow color={workflow === step ? rainbowColors[i] : undefined} />
-            )}
           </div>
         ))}
       </StepContainer>

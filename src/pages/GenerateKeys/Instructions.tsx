@@ -35,19 +35,6 @@ export const Instructions = ({
         >
           {formatMessage({ defaultMessage: 'Download CLI app' })}
         </TextSelectionBox>
-        <TextSelectionBox
-          isActive={chosenTool === keysTool.GUI}
-          onClick={() => setChosenTool(keysTool.GUI)}
-          style={{ marginRight: '20px' }}
-        >
-          {formatMessage({ defaultMessage: 'Download Key Gen GUI app' })}
-        </TextSelectionBox>
-        <TextSelectionBox
-          isActive={chosenTool === keysTool.CLISOURCE}
-          onClick={() => setChosenTool(keysTool.CLISOURCE)}
-        >
-          {formatMessage({ defaultMessage: 'Build from source' })}
-        </TextSelectionBox>
       </div>
       <div>
         {chosenTool === keysTool.CLI && <Option1 {...{ validatorCount, os }} />}

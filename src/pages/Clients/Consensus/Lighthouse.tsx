@@ -15,7 +15,7 @@ import { LIGHTHOUSE_INSTALLATION_URL } from '../../../utils/envVars';
 
 const CodeSnippet = styled.div`
   padding: 10px;
-  font-family: Courier, sans-serif;
+  font-family: 'Sora', sans-serif;
   font-size: 1em;
   line-height: 1.3;
   color: #fff;

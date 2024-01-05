@@ -24,7 +24,7 @@ interface Props {
 const StyledBaseLineChartAxis = styled.g``;
 
 const BaseLineChartAxisTick = styled.text`
-  font-family: sans-serif;
+  font-family: 'Sora', sans-serif;
   font-size: 16px;
   fill: ${props => props.fill || props.theme.black};
   font-weight: 700;

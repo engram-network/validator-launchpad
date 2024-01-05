@@ -27,13 +27,13 @@ const ControlContainer = styled.div`
 `;
 const TerminalText = styled(Text)`
   color: #06ff04;
-  font-family: monospace;
+  font-family: 'Sora', sans-serif;
   overflow-wrap: break-word;
   word-break: break-all;
 `;
 const CopyContainer = styled.div`
   color: #06ff04;
-  font-family: monospace;
+  font-family: 'Sora', sans-serif;
   font-size: 16px;
   padding: 0 5px;
   cursor: pointer;
