@@ -57,7 +57,11 @@ export const Option2 = ({ os }: { os: string }) => {
               defaultMessage="Please make sure that you are downloading from the official StakeHouse
               GitHub account by verifying the url: {url}"
               values={{
-                url: <strong>#</strong>,
+                url: (
+                  <strong>
+                    https://github.com/engram-network/staking-deposit.git
+                  </strong>
+                ),
               }}
               description="{url} is link to GitHub CLI release, made bold for emphasis"
             />

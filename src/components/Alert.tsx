@@ -20,8 +20,8 @@ const variantStyles = {
     borderColor: '#bce8f1',
   },
   error: {
-    backgroundColor: '#f2dede',
-    borderColor: '#ebccd1',
+    backgroundColor: '#F2F2F2',
+    borderColor: '#F2F2F2',
   },
   success: {
     backgroundColor: '#d4edda',

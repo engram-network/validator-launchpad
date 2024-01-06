@@ -406,10 +406,10 @@ export const Checklist = () => {
         <FormattedMessage defaultMessage="This checklist will help you understand the role of a validator and prepare you for the role." />
         <Text className="mt10">
           <FormattedMessage
-            defaultMessage="Visit EthStaker on {discord} or {reddit} at any time during your setup for some friendly help!"
+            defaultMessage="Visit Engram Staker on {discord} at any time during your setup for some friendly help!"
             values={{
               discord: (
-                <Link primary inline to="https://invite.gg/ethstaker">
+                <Link primary inline to="https://discord.com/invite/d3K67d2PYe">
                   Discord
                 </Link>
               ),
@@ -515,29 +515,13 @@ export const Checklist = () => {
             </li>
             <li className="py5">
               <Text>
-                <FormattedMessage defaultMessage="Since the Merge, third-party providers (such as Infura and Alchemy) are no longer viable options to outsource execution layer responsibilities. All stakers must run both an execution and a consensus client to properly attest to the network." />
+                <FormattedMessage defaultMessage="As of Nov 2023, you'll need ~150GB for the Testnet execution chain data alone." />
               </Text>
             </li>
             <li className="py5">
               <Text>
                 <FormattedMessage
-                  defaultMessage="As of {date}, you'll need ~1TB for the Mainnet execution chain data alone (growing at >1GB/day)."
-                  values={{
-                    date: (
-                      <FormattedDate
-                        value={new Date(2022, 4)}
-                        year="numeric"
-                        month="long"
-                      />
-                    ),
-                  }}
-                />
-              </Text>
-            </li>
-            <li className="py5">
-              <Text>
-                <FormattedMessage
-                  defaultMessage="Ethereum had its genesis on July 30, 2015. It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
+                  defaultMessage="Engram had its genesis on Nov/16, 2023. It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
                   values={{
                     date: (
                       <FormattedDate
@@ -1418,7 +1402,7 @@ export const Checklist = () => {
                 You can find support on {discord} or {reddit}."
             values={{
               discord: (
-                <Link primary inline to="https://invite.gg/ethstaker">
+                <Link primary inline to="https://discord.com/invite/d3K67d2PYe">
                   Discord
                 </Link>
               ),

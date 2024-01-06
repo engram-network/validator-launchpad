@@ -615,6 +615,20 @@
       "value": "No validators found for your connected wallet"
     }
   ],
+  "3N5YMS": [
+    {
+      "type": 0,
+      "value": "Visit Engram Staker on "
+    },
+    {
+      "type": 1,
+      "value": "discord"
+    },
+    {
+      "type": 0,
+      "value": " at any time during your setup for some friendly help!"
+    }
+  ],
   "3NHygY": [
     {
       "type": 0,
@@ -857,28 +871,6 @@
     {
       "type": 0,
       "value": ". It is possible to drop below this with poor node performance, but it is not possible to raise above it."
-    }
-  ],
-  "5t8oYl": [
-    {
-      "type": 0,
-      "value": "Visit EthStaker on "
-    },
-    {
-      "type": 1,
-      "value": "discord"
-    },
-    {
-      "type": 0,
-      "value": " or "
-    },
-    {
-      "type": 1,
-      "value": "reddit"
-    },
-    {
-      "type": 0,
-      "value": " at any time during your setup for some friendly help!"
     }
   ],
   "63gLLu": [
@@ -1741,12 +1733,6 @@
       "value": "The key concept is the following:"
     }
   ],
-  "FFUr3c": [
-    {
-      "type": 0,
-      "value": "Ethereum had its genesis on July 30, 2015. It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
-    }
-  ],
   "FM92S0": [
     {
       "type": 0,
@@ -1927,12 +1913,6 @@
     {
       "type": 0,
       "value": "Languages"
-    }
-  ],
-  "Gsixxx": [
-    {
-      "type": 0,
-      "value": "Early adoption risks"
     }
   ],
   "GuIwY6": [
@@ -3409,12 +3389,6 @@
       "value": "Besu on Goerli documentation"
     }
   ],
-  "XVRQoq": [
-    {
-      "type": 0,
-      "value": "Since the Merge, third-party providers (such as Infura and Alchemy) are no longer viable options to outsource execution layer responsibilities. All stakers must run both an execution and a consensus client to properly attest to the network."
-    }
-  ],
   "XVehvN": [
     {
       "type": 1,
@@ -3477,6 +3451,12 @@
     {
       "type": 0,
       "value": "Top up"
+    }
+  ],
+  "Y4wVSf": [
+    {
+      "type": 0,
+      "value": "Early adoption"
     }
   ],
   "Y8YLHs": [
@@ -3559,6 +3539,12 @@
       "value": " validators. Please make sure you keep these safe, preferably offline. Your validator keystores should be available in the selected directory."
     }
   ],
+  "YYsNt6": [
+    {
+      "type": 0,
+      "value": "Engram had its genesis on Nov/16, 2023. It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
+    }
+  ],
   "Yd6MEN": [
     {
       "type": 0,
@@ -3611,6 +3597,12 @@
     {
       "type": 0,
       "value": "money bag"
+    }
+  ],
+  "Yzqll+": [
+    {
+      "type": 0,
+      "value": "As of Nov 2023, you'll need ~150GB for the Testnet execution chain data alone."
     }
   ],
   "Z07LQm": [
@@ -4743,20 +4735,6 @@
     {
       "type": 0,
       "value": "You're on the testnet"
-    }
-  ],
-  "l3ztMu": [
-    {
-      "type": 0,
-      "value": "As of "
-    },
-    {
-      "type": 1,
-      "value": "date"
-    },
-    {
-      "type": 0,
-      "value": ", you'll need ~1TB for the Mainnet execution chain data alone (growing at >1GB/day)."
     }
   ],
   "l4nLft": [

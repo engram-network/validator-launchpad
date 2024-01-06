@@ -233,6 +233,10 @@
   "3H3ygi": {
     "message": "No validators found for your connected wallet"
   },
+  "3N5YMS": {
+    "description": "{variables} are social media platform links to Discord and Reddit (do not translate names)",
+    "message": "Visit Engram Staker on {discord} at any time during your setup for some friendly help!"
+  },
   "3NHygY": {
     "message": "Testing on Goerli"
   },
@@ -311,10 +315,6 @@
   },
   "5dG331": {
     "message": "Although a validator's vote is weighted by the amount it has at stake, each validators voting weight starts at, and is capped at {pricePerValidator}. It is possible to drop below this with poor node performance, but it is not possible to raise above it."
-  },
-  "5t8oYl": {
-    "description": "{variables} are social media platform links to Discord and Reddit (do not translate names)",
-    "message": "Visit EthStaker on {discord} or {reddit} at any time during your setup for some friendly help!"
   },
   "63gLLu": {
     "message": "average"
@@ -656,9 +656,6 @@
   "FEbVwB": {
     "message": "The key concept is the following:"
   },
-  "FFUr3c": {
-    "message": "Ethereum had its genesis on July 30, 2015. It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
-  },
   "FM92S0": {
     "message": "Note: the Beacon Chain may take several minutes to verify your deposit"
   },
@@ -734,9 +731,6 @@
   },
   "GsBRWL": {
     "message": "Languages"
-  },
-  "Gsixxx": {
-    "message": "Early adoption risks"
   },
   "GuIwY6": {
     "message": "When should I top up my validator’s balance?"
@@ -1320,9 +1314,6 @@
     "description": "Link to documentation about execution client Besu, specifically for Goerli testnet",
     "message": "Besu on Goerli documentation"
   },
-  "XVRQoq": {
-    "message": "Since the Merge, third-party providers (such as Infura and Alchemy) are no longer viable options to outsource execution layer responsibilities. All stakers must run both an execution and a consensus client to properly attest to the network."
-  },
   "XVehvN": {
     "description": "{filesPattern} refers to a computer command which will find {keyFile} and\n                {passwordFile} - both files within a computer.",
     "message": "{filesPattern} will expect that the {keyFile} exists, and the file containing the password for it is {passwordFile}."
@@ -1336,6 +1327,9 @@
   },
   "Y47aYU": {
     "message": "Top up"
+  },
+  "Y4wVSf": {
+    "message": "Early adoption"
   },
   "Y8YLHs": {
     "message": "If your signing key is not under the thief’s control, the thief cannot exit your validator."
@@ -1362,6 +1356,9 @@
   "YQJy4H": {
     "message": "You should now have your mnemonic written down in a safe place and a keystore saved for each of your {validatorCount} validators. Please make sure you keep these safe, preferably offline. Your validator keystores should be available in the selected directory."
   },
+  "YYsNt6": {
+    "message": "Engram had its genesis on Nov/16, 2023. It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
+  },
   "Yd6MEN": {
     "message": "Execution clients"
   },
@@ -1383,6 +1380,9 @@
   },
   "Yu78N6": {
     "message": "money bag"
+  },
+  "Yzqll+": {
+    "message": "As of Nov 2023, you'll need ~150GB for the Testnet execution chain data alone."
   },
   "Z07LQm": {
     "message": "Couldn't upload {depositFileName} due to an error. Open an issue in GitHub so we can investigate."
@@ -1853,9 +1853,6 @@
   },
   "l/uCcX": {
     "message": "You're on the testnet"
-  },
-  "l3ztMu": {
-    "message": "As of {date}, you'll need ~1TB for the Mainnet execution chain data alone (growing at >1GB/day)."
   },
   "l4nLft": {
     "message": "I know how to check that I am sending my {TICKER_NAME} into the correct deposit contract and will do so."

@@ -53,7 +53,7 @@ export const _AcknowledgementProgressTracker = ({
       defaultMessage: 'Commitment',
     }),
     [AcknowledgementIdsEnum.earlyAdoptionRisks]: formatMessage({
-      defaultMessage: 'Early adoption risks',
+      defaultMessage: 'Early adoption',
     }),
     [AcknowledgementIdsEnum.checklist]: formatMessage({
       defaultMessage: 'Checklist',

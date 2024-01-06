@@ -1,33 +1,33 @@
 export const colors = {
   transparent: 'transparent',
-  white: '#d9d3d0',
+  white: '#437cf1',
   gray: {
-    lightest: '#d9d3d0',
-    light: '#d9d3d0',
-    medium: '#B6B6B6',
-    dark: '#4A4A4A',
+    lightest: '#000000',
+    light: '#CFEA77', // text deposit
+    medium: '#000000',
+    dark: '#000000',
   },
-  black: '#333333',
+  black: '#ffff',
   blue: {
-    lightest: '#D4D7E7',
-    light: '#b0e2f5',
-    medium: '#007FB0',
-    dark: '#0F2A43',
+    lightest: '#ebe7eb',
+    light: '#CFEA77',
+    medium: '#20aa5e',
+    dark: '#000000',
   },
   green: {
-    light: '#F8FAF9',
-    medium: '#D0E1D5',
-    dark: '#26AB83',
+    light: '#ebe7eb',
+    medium: '#00d361',
+    dark: '#00d361',
   },
   red: {
-    lightest: '#d9d3d0',
-    light: '#FF9B9A',
-    medium: '#912d2c',
+    lightest: '#ebe7eb',
+    light: '#437cf1',
+    medium: '#437cf1',
   },
-  orange: '#FFF9F2',
+  orange: '#ebe7eb',
   purple: {
-    light: '#F0F2FB',
-    medium: '#E3E5F2',
+    light: '#ebe7eb',
+    medium: '#ebe7eb',
     dark: '#795da3',
   },
   yellow: {
@@ -42,33 +42,17 @@ export const details = {
 };
 
 export const rainbowColors = [
-  '#fdccd3', // pink
-  '#fca09a', // red
-  '#ffcc9e', // yellow
-  '#98ddad', // green
-  '#81d7ec', // blue
-  '#91C1ED', // blurple
-  '#a0aaed', // purple
+  '#ebe7eb', // light
 ];
 
 export const rainbowBGColors = [
-  '#fdccd3', // pink
-  '#FED4D1', // red
-  '#fcead9', // yellow-orange
-  '#dcf0df', // green
-  '#d3edf6', // blue
-  '#baccf2', // blurple
-  '#a0aaed', // purple
+  '#ebe7eb', // green
+  '#ebe7eb', // green
+  '#ebe7eb', // green
 ];
 
 export const rainbowLightColors = [
-  '#fef2f4', // pink
-  '#fdf8f7', // red
-  '#FFF2E6', // yellow-orange
-  '#e5f6ea', // green
-  '#dff5fa', // blue
-  '#E3EFFA', // blurple
-  '#e7e9fa', // purple
+  '#ebe7eb', // light
 ];
 
 export const rainbow = rainbowColors.join(', ');
