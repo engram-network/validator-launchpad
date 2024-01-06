@@ -33,7 +33,7 @@ export const grommetTheme = {
       yellowDark: yellow.dark,
     },
     font: {
-      family: 'Roboto',
+      family: 'Sora, sans-serif',
     },
   },
   button: {
@@ -81,7 +81,7 @@ export const grommetTheme = {
     size: '18px',
     // label color
     extend: `
-      color: #9C9C9C;
+      color: #000000;
     `,
   },
 };

@@ -7,7 +7,7 @@ export const colors = {
     medium: '#000000',
     dark: '#000000',
   },
-  black: '#ffff',
+  black: '#ebe7eb',
   blue: {
     lightest: '#ebe7eb',
     light: '#CFEA77',
@@ -28,7 +28,7 @@ export const colors = {
   purple: {
     light: '#ebe7eb',
     medium: '#ebe7eb',
-    dark: '#795da3',
+    dark: '#CFEA77',
   },
   yellow: {
     light: '#fff0a8',

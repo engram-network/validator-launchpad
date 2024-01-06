@@ -209,6 +209,9 @@
   "2iH8Zc": {
     "message": "Nimbus key management documentation"
   },
+  "2oonHV": {
+    "message": "The Engram Economics"
+  },
   "2rflCq": {
     "message": "Client diversity is extremely important for the network health of Ethereum: A bug in a client with a share of over 33% can cause Ethereum to go offline. If the client has a supermajority (>66%), a bug could cause the chain to incorrectly split, potentially leading to slashing."
   },
@@ -2335,9 +2338,6 @@
   },
   "xXKkhR": {
     "message": "I've installed and synced my {network} execution client (do not wait on this as it can take several days)."
-  },
-  "xXWzDf": {
-    "message": "The Beacon Chain"
   },
   "xbet2w": {
     "message": "Install python3.7+"
