@@ -12,7 +12,7 @@ export const RPC_URL                    = process.env.REACT_APP_RPC_URL || INFUR
 
 // public
 export const NETWORK_NAME               = IS_MAINNET ? 'Mainnet' : TESTNET_LAUNCHPAD_NAME;
-export const TICKER_NAME                = IS_MAINNET ? 'GRAM' : `${EL_TESTNET_NAME} `;
+export const TICKER_NAME                = IS_MAINNET ? 'tGRAM' : `${EL_TESTNET_NAME} `;
 export const ETHERSCAN_URL              = 'https://tokioscan-v2.engram.tech/tx';
 export const BEACONCHAIN_URL            = 'https://beaconscan-v2.engram.tech';
 export const FORTMATIC_KEY              = process.env.REACT_APP_FORTMATIC_KEY       || 'pk_test_D113D979E0D3508F';
