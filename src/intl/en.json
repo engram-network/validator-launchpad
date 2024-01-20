@@ -4,7 +4,7 @@
     "message": "Ethereum consists of the {executionLayer} (handling transactions and execution, formerly 'Eth1'), and the {consensusLayer} (handling proof-of-stake consensus tasks, formerly 'Eth2' or 'Ethereum 2.0')."
   },
   "+CyDun": {
-    "message": "Become a validator and help secure the future of Engram."
+    "message": "Become a validator and help secure by incentivized staking."
   },
   "+L0IkF": {
     "message": "Step 2: Generate deposit keys using the Ethereum Foundation deposit tool"
@@ -1120,7 +1120,7 @@
     "message": "Consensus clients"
   },
   "ROHpFF": {
-    "message": "1. Learn about your responsibilities"
+    "message": "1. Read our FAQs"
   },
   "RVyb7r": {
     "message": "Can I stop running my validator for a few days and then start it back up again?"
@@ -1545,7 +1545,7 @@
     "message": "What exactly is a validator?"
   },
   "dQ+baw": {
-    "message": "Become a validator and help secure the future of Engram"
+    "message": "Become a validator and help secure by incentivized staking"
   },
   "dTOtPO": {
     "message": "Top Up"

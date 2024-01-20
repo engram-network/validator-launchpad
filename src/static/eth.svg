@@ -1,22 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="26px" height="44px" viewBox="0 0 26 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>Group 7</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Keys-Offline" transform="translate(-134.000000, -18.000000)">
-            <g id="Header">
-                <g id="Logo" transform="translate(134.000000, 18.000000)">
-                    <g id="Group-7">
-                        <polygon id="Fill-1" fill="#FEEB5D" points="13 0 0 22.6801042 13 31"></polygon>
-                        <polygon id="Fill-2" fill="#F08A77" points="13 0 13 31 26 22.6801042"></polygon>
-                        <polygon id="Fill-3" fill="#1AACD3" points="13 44 13 33.2843644 0 25"></polygon>
-                        <polygon id="Fill-4" fill="#6B7ABA" points="13 33.2843644 13 44 26 25"></polygon>
-                        <polygon id="Fill-5" fill="#59B46E" points="0 22.5445894 13 31 13 15"></polygon>
-                        <polygon id="Fill-6" fill="#A666A6" points="13 31 26 22.5445894 13 15"></polygon>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg width="39" height="21" viewBox="0 0 39 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 12.0376V20L24.6699 11.9668L29 9.4222V1L15.5794 9.22944L11 12.0376Z" fill="url(#paint0_radial_131_51)"/>
+<path d="M38 1H29V9H38V1Z" fill="url(#paint1_radial_131_51)"/>
+<path d="M38 9H29.165L25 12L34.7219 11.8464L38 9Z" fill="url(#paint2_radial_131_51)"/>
+<path d="M1 12H11.2253L16 9H6.11959L1 12Z" fill="url(#paint3_radial_131_51)"/>
+<path d="M1 12V20H11V12H1Z" fill="url(#paint4_radial_131_51)"/>
+<path d="M1 12.0376V20H10.8093M1 12.0376H10.8093M1 12.0376L5.91128 9.22944H15.3896M10.8093 20V12.0376M10.8093 20L28.8128 9.4222M10.8093 20L24.4818 11.9668M10.8093 12.0376L28.8128 1M10.8093 12.0376L15.3896 9.22944M15.3896 9.22944L28.8128 1M28.8128 9.4222V1M28.8128 9.4222H38M28.8128 9.4222L24.4818 11.9668M24.4818 11.9668L34.5913 11.8365L38 9.4222M28.8128 1H38V9.4222" stroke="white" stroke-width="0.5"/>
+<defs>
+<radialGradient id="paint0_radial_131_51" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11.8437 19.4412) rotate(-39.7774) scale(26.9423 23.893)">
+<stop offset="0.150201" stop-color="#ABCE22"/>
+<stop offset="0.339167"/>
+</radialGradient>
+<radialGradient id="paint1_radial_131_51" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(24.7647 10.0667) rotate(-35.4087) scale(15.6482 24.0658)">
+<stop offset="0.407907"/>
+<stop offset="0.87816" stop-color="#ABCE22"/>
+</radialGradient>
+<radialGradient id="paint2_radial_131_51" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26.4285 12.6784) rotate(-26.5102) scale(9.44486 29.1472)">
+<stop stop-color="white" stop-opacity="0.91"/>
+<stop offset="0.475619"/>
+</radialGradient>
+<radialGradient id="paint3_radial_131_51" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11.329 12.0104) rotate(-172.826) scale(6.4561 6.26975)">
+<stop stop-color="white"/>
+<stop offset="1"/>
+</radialGradient>
+<radialGradient id="paint4_radial_131_51" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11.6294 20.4354) rotate(-135.053) scale(10.5331 12.873)">
+<stop offset="0.459993" stop-color="#ABCE22"/>
+<stop offset="1"/>
+</radialGradient>
+</defs>
 </svg>

@@ -46,7 +46,7 @@ export const SignupSteps = (): JSX.Element => {
     <Container className="py100">
       <ScrollAnimation animateIn="fadeIn" animateOnce>
         <Heading level={2} size="medium" color="blueDark" margin="none">
-          <FormattedMessage defaultMessage="Become a validator" />
+          <FormattedMessage defaultMessage="Validator's Staking Tips" />
         </Heading>
         <Subtitle>
           <FormattedMessage
@@ -61,11 +61,11 @@ export const SignupSteps = (): JSX.Element => {
             emoji="📚"
             emojiAlt={formatMessage({ defaultMessage: 'books' })}
             title={formatMessage({
-              defaultMessage: '1. Learn about your responsibilities',
+              defaultMessage: '1. Read our FAQs',
             })}
             content={formatMessage({
               defaultMessage:
-                'The Ethereum upgrades will only be successful if validators understand the risks and responsibilities.',
+                'The staking program is that will help our public Blockchain protocol to be safer and more resilient. We invite institutions, companies to join and bring their ecosystem on our chain.',
             })}
           >
             <Link to={routesEnum.FaqPage} primary>
@@ -77,10 +77,10 @@ export const SignupSteps = (): JSX.Element => {
           <Step
             emoji="🔧"
             emojiAlt={formatMessage({ defaultMessage: 'wrench' })}
-            title={formatMessage({ defaultMessage: '2. Prep nodes' })}
+            title={formatMessage({ defaultMessage: '2. Prerequisites' })}
             content={formatMessage({
               defaultMessage:
-                "You'll need to run an execution client & consensus client to become a validator. Take a look at the checklist to prepare yourself and your equipment.",
+                "Make sure you complete all of the validator preparation checklist before running the nodes from your computer.",
             })}
           >
             <Link to={routesEnum.checklistPage} primary>
@@ -95,11 +95,11 @@ export const SignupSteps = (): JSX.Element => {
               defaultMessage: 'martial arts uniform',
             })}
             title={formatMessage({
-              defaultMessage: '3. Practice on a testnet',
+              defaultMessage: '3. ⁠Prepare on Engram testnet',
             })}
             content={formatMessage({
               defaultMessage:
-                'We strongly recommend you go through the entire process on a testnet first to get comfortable before risking real ETH.',
+                'While risking real GRAM coins on Engram Mainet, we recommend validators and stakers to try and practice on our testnet chain.',
             })}
           >
             {IS_MAINNET ? (
@@ -117,10 +117,10 @@ export const SignupSteps = (): JSX.Element => {
             emojiAlt={formatMessage({
               defaultMessage: 'fishing rod',
             })}
-            title={formatMessage({ defaultMessage: '4. Avoid phishing' })}
+            title={formatMessage({ defaultMessage: '4. Play Safe' })}
             content={formatMessage({
               defaultMessage:
-                "Make sure you're aware of how to avoid phishing attacks. We've prepared a list of things to look out for.",
+                "Make sure you know The things that may affects your staking process, like phishing. Here's the list of things you need to avoid.",
             })}
           >
             <Link to={routesEnum.phishingPage} primary>
@@ -135,7 +135,7 @@ export const SignupSteps = (): JSX.Element => {
             title={formatMessage({ defaultMessage: '5. Time to deposit' })}
             content={formatMessage({
               defaultMessage:
-                "Once you're comfortable, you'll go through generating your keys and depositing your ETH.",
+                "Once you feel comfortable and ready to stake, you can directly launch the deposit contract using your GRAM coin that you can send to your new generated keys.",
             })}
           >
             <Link to={routesEnum.acknowledgementPage} primary>
@@ -152,7 +152,7 @@ export const SignupSteps = (): JSX.Element => {
             })}
             content={formatMessage({
               defaultMessage:
-                "Once set up, your validator won't become active straight away. Use this time to complete the checklist and get some extra practice on a testnet.",
+                "Once you have deposited the GRAM coin to staking contract, it won't be active straight away. Wait the activation process that will take approximately 1 day until it becomes active.",
             })}
           >
             <Link to={routesEnum.checklistPage} primary>
